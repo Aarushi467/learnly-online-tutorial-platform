@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnly – Online Tutorial Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <div class="logo">
+        <span class="logo-icon">&lt;/&gt;</span>
+        <span class="logo-text">Learnly</span>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#hero">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn nav-signin" data-scroll-target="#contact">
+        Sign In
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <!-- Left -->
+        <div class="hero-text">
+          <div class="hero-pill">
+            <span class="pill-dot"></span>
+            Start your coding journey today! ✨
+          </div>
+
+          <h1>
+            Learn Web<br />
+            Development the
+            <span class="accent-underline">Smart Way 🚀</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Short, beginner-friendly tutorials for HTML, CSS, and JavaScript.
+            Learn the basics with hands-on projects and simple examples.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-scroll-target="#courses">
+              Start Learning 💻
+            </button>
+            <button class="btn btn-outline" data-scroll-target="#roadmap">
+              View Roadmap 📍
+            </button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="10000">10K+</span>
+              <span class="stat-label">Students 👩‍💻👨‍💻</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="50">50+</span>
+              <span class="stat-label">Lessons 📚</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="4.9">4.9</span>
+              <span class="stat-label">Rating ⭐</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="hero-visual">
+          <div class="orb o1"></div>
+          <div class="orb o2"></div>
+          <div class="orb o3"></div>
+
+          <div class="hero-glow hero-glow-back"></div>
+          <div class="hero-glow hero-glow-front"></div>
+
+          <div class="hero-image-card">
+            <img
+              src="assets/images/hero-laptop.png"
+              alt="Laptop with HTML, CSS and JS"
+              class="hero-img"
+            />
+            <div class="hero-badge hero-badge-top">
+              🔥 Trending · HTML Basics
+            </div>
+            <div class="hero-badge hero-badge-bottom">
+              ⭐ Top Rated · 4.9/5
+            </div>
+          </div>
+
+          <div class="hero-progress-card">
+            <div class="progress-header">
+              <span class="pill tiny">Today's Goal 🎯</span>
+              <span class="time-left">2h 30m left</span>
+            </div>
+
+            <h3 class="progress-title">Finish HTML Basics Module</h3>
+
+            <div class="progress-bar">
+              <div class="progress-bar-fill"></div>
+            </div>
+
+            <ul class="progress-list">
+              <li>Introduction to HTML ✓</li>
+              <li>HTML Document Structure ✓</li>
+              <li>Text &amp; Headings</li>
+              <li>Links &amp; Images</li>
+            </ul>
+
+            <button class="btn btn-secondary" data-scroll-target="#courses">
+              Continue Learning ▶
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">🌟 Popular Courses</div>
+          <h2>Featured Courses</h2>
+          <p>Start with our HTML, CSS and JavaScript basics courses.</p>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card">
+            <img src="assets/images/course-html.png" alt="HTML course" class="course-img" />
+            <span class="course-tag html-tag">HTML</span>
+            <h3>HTML Fundamentals</h3>
+            <p>Build the structure of any website using semantic tags.</p>
+            <div class="course-meta">
+              <span>12 lessons</span>
+              <span>3 hours</span>
+            </div>
+            <button
+              class="btn btn-course"
+              data-course="HTML Fundamentals"
+              data-scroll-target="#roadmap"
+            >
+              Start Course
+            </button>
+          </article>
+
+          <article class="course-card">
+            <img src="assets/images/course-css.png" alt="CSS course" class="course-img" />
+            <span class="course-tag css-tag">CSS</span>
+            <h3>CSS Styling Mastery</h3>
+            <p>Learn colour, fonts, layout, Flexbox and Grid basics.</p>
+            <div class="course-meta">
+              <span>18 lessons</span>
+              <span>5 hours</span>
+            </div>
+            <button
+              class="btn btn-course"
+              data-course="CSS Styling Mastery"
+              data-scroll-target="#roadmap"
+            >
+              Start Course
+            </button>
+          </article>
+
+          <article class="course-card">
+            <img src="assets/images/course-js.png" alt="JavaScript course" class="course-img" />
+            <span class="course-tag js-tag">JS</span>
+            <h3>JavaScript Essentials</h3>
+            <p>Use JS for simple logic, events and DOM updates.</p>
+            <div class="course-meta">
+              <span>24 lessons</span>
+              <span>8 hours</span>
+            </div>
+            <button
+              class="btn btn-course"
+              data-course="JavaScript Essentials"
+              data-scroll-target="#roadmap"
+            >
+              Start Course
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">🗺️ Learning Path</div>
+          <h2>Your Roadmap to Success</h2>
+          <p>Follow this order to go from beginner to confident coder.</p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-line"></div>
+
+          <div class="roadmap-step">
+            <div class="roadmap-icon html-tag">HTML</div>
+            <div class="roadmap-card">
+              <h3>HTML Fundamentals</h3>
+              <p>Document structure, links, images, forms, tables.</p>
+              <div class="roadmap-meta">
+                <span>⏱ 2 weeks</span>
+                <span class="level beginner">Beginner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="roadmap-icon css-tag">CSS</div>
+            <div class="roadmap-card">
+              <h3>CSS Essentials</h3>
+              <p>Selectors, box model, flexbox, grid, responsive design.</p>
+              <div class="roadmap-meta">
+                <span>⏱ 3 weeks</span>
+                <span class="level beginner">Beginner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="roadmap-icon js-tag">JS</div>
+            <div class="roadmap-card">
+              <h3>JavaScript Basics</h3>
+              <p>Variables, functions, arrays, DOM, events.</p>
+              <div class="roadmap-meta">
+                <span>⏱ 3 weeks</span>
+                <span class="level intermediate">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="roadmap-banner">
+          <p>
+            🎓 Ready for your first developer project?
+            <span>Finish all three modules and build a mini portfolio site.</span>
+          </p>
+          <button class="btn btn-primary" data-scroll-target="#contact">
+            Talk to a Mentor
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-glow"></div>
+          <img
+            src="assets/images/about-student.png"
+            alt="Happy student coding"
+            class="about-img"
+          />
+          <div class="about-floating about-rating">⭐ 4.9 Rating</div>
+          <div class="about-floating about-job">💼 Job Ready</div>
+          <div class="about-floating about-love">❤️ Loved by learners</div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-pill">🚀 Why Choose Us</div>
+          <h2>Why <span class="accent-text">Learnly?</span></h2>
+          <p>
+            Simple explanations, practice questions and visual notes to help you
+            fall in love with web development.
+          </p>
+
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">📚</div>
+              <h3>Bite-sized Lessons</h3>
+              <p>Short videos and notes that fit your schedule.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🌱</div>
+              <h3>Beginner Friendly</h3>
+              <p>No experience needed – we start from zero.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏆</div>
+              <h3>Practice Questions</h3>
+              <p>Check your understanding after each topic.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h3>Progress Tracking</h3>
+              <p>See how much you’ve completed at a glance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">💬 Testimonials</div>
+          <h2>What Students Say</h2>
+          <p>Join thousands of happy learners achieving their goals.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              “Learnly made web development feel easy. I built my first
+              site in just 3 weeks!”
+            </p>
+            <h3>Sarah Chen</h3>
+            <span>Computer Science Student</span>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              “The roadmap told me exactly what to learn next. Very helpful
+              for staying consistent.”
+            </p>
+            <h3>Marcus Johnson</h3>
+            <span>Career Changer</span>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              “Practice questions tested my understanding and boosted
+              my confidence.”
+            </p>
+            <h3>Aisha Patel</h3>
+            <span>Self-taught Developer</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info-card">
+          <div class="section-pill">🧑‍🏫 Get Support</div>
+          <h2>Need Help? <span class="accent-text">Ask a Mentor</span></h2>
+          <p>
+            Reach out with any questions about our courses or your progress.
+          </p>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h3>Email us anytime</h3>
+                <p>support@learnly.dev</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">💬</div>
+              <div>
+                <h3>Live chat</h3>
+                <p>9am – 6pm (Mon–Fri)</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon">⚡</div>
+              <div>
+                <h3>Fast response</h3>
+                <p>Usually within 2 hours</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-rocket-wrapper">
+            <div class="contact-rocket-glow"></div>
+            <img
+              src="assets/images/contact-rocket.png"
+              alt="Rocket illustration"
+              class="contact-rocket"
+            />
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <h3>Ask a Question ✨</h3>
+
+          <label>
+            Your Name
+            <input type="text" name="name" required placeholder="John Doe" />
+          </label>
+
+          <label>
+            Email Address
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="john@example.com"
+            />
+          </label>
+
+          <label>
+            Topic
+            <select name="topic" required>
+              <option value="">Select a topic</option>
+              <option value="html">HTML doubts</option>
+              <option value="css">CSS layout help</option>
+              <option value="js">JavaScript logic</option>
+              <option value="projects">Project guidance</option>
+            </select>
+          </label>
+
+          <label>
+            Your Message
+            <textarea
+              name="message"
+              rows="4"
+              required
+              placeholder="How can we help you today?"
+            ></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary full-width">
+            Send Message ✉️
+          </button>
+
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span class="footer-logo">Learnly</span>
+      <span class="footer-text">
+        © 2025 Learnly | SNW Team Project | Designed &amp; Developed by Our Team
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
