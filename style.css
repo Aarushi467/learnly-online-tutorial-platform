@@ -1087,3 +1087,6 @@ body {
     backdrop-filter: blur(12px);
   }
 }
+button {
+  transition: all 0.25s ease-in-out;
+}
