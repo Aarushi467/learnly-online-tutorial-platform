@@ -288,3 +288,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+console.log("Shailesh’s JS contribution works!");
+
