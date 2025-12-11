@@ -269,6 +269,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+
+  // Shailesh: Added helper notes for theme toggle logic
   function toggleTheme() {
     isLight = !isLight;
     applyTheme(isLight ? lightTheme : darkTheme);
